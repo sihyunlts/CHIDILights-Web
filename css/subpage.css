@@ -1,0 +1,22 @@
+.submainback
+{
+  height: 300px;
+  object-fit: cover;
+}
+
+.maintext,.submainbutton
+{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.maintext
+{
+  top: 160px;
+}
+
+.submainbutton
+{
+  top: 230px;
+}

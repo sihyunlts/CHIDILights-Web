@@ -19,14 +19,14 @@ a,a:hover
   object-fit: cover;
 }
 
-.maintext,.mainbutton
+.mainbutton,.maintextimage
 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.maintext
+.maintextimage
 {
   top: 285px;
   width: 70%;
