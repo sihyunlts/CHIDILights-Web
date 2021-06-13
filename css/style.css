@@ -7,6 +7,24 @@ body
 
 .mainback
 {
-  height: 600px;
+  height: 550px;
   object-fit: cover;
+}
+
+.maintext
+{
+  position: absolute;
+  top: 285px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  max-width: 600px;
+}
+
+.mainbutton
+{
+  position: absolute;
+  top: 375px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
