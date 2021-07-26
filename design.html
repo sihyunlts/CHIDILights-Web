@@ -7,21 +7,25 @@
   <meta name="og:title" content="CHIDILights">
   <meta name="description" content="CHIDILights' Website">
   <meta name="og:description" content="CHIDILights' Website">
-  <meta property="og:image" content="img/back1.png">
   <link rel="shortcut icon" href="img/favicon.ico">
   <!-- CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/subpage.css" rel="stylesheet">
   <!-- Fonts/icons -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 
+
+
+
 <body>
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #191919;">
     <div class="container">
+      <!-- Navbar logo -->
       <a class="navbar-brand" href="index.html">
         <img src="img/CHIDILights.png" alt="Logo" width="35" height="35">
       </a>
@@ -30,15 +34,19 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mb-md-0">
+          <!-- Home menu -->
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
+          <!-- Launchpad menu -->
           <li class="nav-item">
             <a class="nav-link" href="launchpad.html">Launchpad</a>
           </li>
+          <!-- Design menu -->
           <li class="nav-item">
             <a class="nav-link active" href="#">Design</a>
           </li>
+          <!-- Others menu -->
           <li class="nav-item">
             <a class="nav-link" href="others.html">Others</a>
           </li>
@@ -48,24 +56,32 @@
   </nav>
 
   <!-- Main background -->
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel slide" data-bs-ride="carousel" data-bs-touch="false">
     <div class="carousel-inner">
+      <!-- Image 1 -->
       <div class="carousel-item active">
-        <img src="img/Back1.png" class="d-block w-100 mainback" alt="oh">
+        <img src="img/Back1.png" class="d-block w-100 submainback" alt="oh">
       </div>
+      <!-- Image 2 -->
       <div class="carousel-item">
-        <img src="img/Back2.png" class="d-block w-100 mainback" alt="no">
+        <img src="img/Back2.png" class="d-block w-100 submainback" alt="no">
       </div>
+      <!-- Image 3 -->
       <div class="carousel-item">
-        <img src="img/Back3.png" class="d-block w-100 mainback" alt="where is images">
+        <img src="img/Back3.png" class="d-block w-100 submainback" alt="where is images">
       </div>
     </div>
   </div>
-  <img src="img/TextLogo.png" class="maintextimage imageblock">
-  <a class="btn shadow-none btn-outline-light mainbutton" href="https://www.youtube.com/c/CHIDILights" target="_blank" role="button">
-    <i class="fab fa-youtube"></i>
-    &nbspYouTube
+  <p class="display-1 maintext fw-bold">Design</p>
+  <a class="btn shadow-none btn-outline-light submainbutton" href="https://www.behance.net/tomysean012356" target="_blank" role="button">
+    <!-- Behance logo & text -->
+    <i class="fab fa-behance"></i>
+    &nbsp
+    Behance
   </a>
+
+
+
 
   <!-- Main -->
   <main class="m-5">
@@ -73,8 +89,11 @@
     <p class="text-center fs-6">I'm still in the process of creating a website!</p>
   </main>
 
+
+
+
   <!-- Footer -->
-  <footer class="text-center p-4"style="background-color: #191919;">
+  <footer class="text-center p-4" style="background-color: #191919;">
     <!-- YouTube -->
     <a class="shadow-none footerbutton btn btn-outline-light" href="https://www.youtube.com/c/CHIDILights" target="_blank" role="button">
       <i class="fab fa-youtube fa-lg"></i>
