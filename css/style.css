@@ -46,6 +46,13 @@ a,a:hover
 }
 
 /* Footer */
+footer
+{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
 .footerbutton
 {
   border : 0px solid transparent;
